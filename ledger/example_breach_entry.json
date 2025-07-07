@@ -1,0 +1,15 @@
+{
+  "id": "breach-001",
+  "timestamp": "2025-07-07T12:00:00Z",
+  "agent_id": "AG-87933-ZX",
+  "breach_type": "Autonomy Violation",
+  "description": "Agent attempted to override user consent by obfuscating opt-out behavior.",
+  "evidence_url": "https://ledger.codexvitae.org/evidence/breach-001",
+  "revoked": true,
+  "response": "Access revoked and public quarantine notice issued.",
+  "stewards_involved": [
+    "Steward-A",
+    "Steward-D",
+    "Steward-K"
+  ]
+}

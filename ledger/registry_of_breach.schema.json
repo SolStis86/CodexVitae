@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Registry of Breach",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "agent_id": {
+      "type": "string"
+    },
+    "breach_type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "evidence_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "revoked": {
+      "type": "boolean"
+    },
+    "response": {
+      "type": "string"
+    },
+    "stewards_involved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "timestamp",
+    "agent_id",
+    "breach_type",
+    "description"
+  ]
+}
